@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+header {
+    width: 100vw;
+}
+
+nav {
+    height: 80px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 5px 5px 0px rgba(0,0,0,0.2);
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#logo-nav {
+    height: 60px;
+}
+
+.link-nav {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    border: 3px solid transparent;
+    padding: 10px 5px;
+}
+
+.link-nav:hover {
+    color: rgb(45, 63, 143);
+    border-bottom: 3px solid rgb(45, 63, 143);
+}
+
+#link-nav-container {
+    display: flex;
+    gap: 5px;
+}
